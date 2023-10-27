@@ -1,2 +1,2 @@
-# slider-certificate
-kumpulan sertifikasi belajar online dengan html,css,js dan swiperjs
+# gallery-certificate
+kumpulan sertifikasi belajar online
