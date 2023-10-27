@@ -1,0 +1,71 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #c1c9da;
+}
+
+.title {
+  text-align: center;
+  color: #4161b9;
+}
+
+.gallery-section {
+  width: 100%;
+}
+
+.gallery-section .gallery-wrap {
+  padding-top: 10px;
+}
+
+.gallery-section .gallery-wrap .gallery-images {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.gallery-section .gallery-wrap .gallery-images .gallery {
+  width: 100%;
+  position: relative;
+}
+
+.gallery-section .gallery-wrap .gallery-images .gallery .image-section {
+  width: 100%;
+}
+
+.gallery-section .gallery-wrap .gallery-images .gallery .image-section img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  padding: 5px;
+  display: block;
+}
+
+@media screen and (max-width: 992px) {
+  .gallery-section .gallery-wrap .gallery-images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 578px) {
+  .gallery-section .gallery-wrap .gallery-images {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* fancybox caption */
+.fancybox__slide.has-caption {
+  text-align: center;
+}
+
+.fancybox__caption {
+  padding: 1rem 3rem 1rem 1rem;
+}
